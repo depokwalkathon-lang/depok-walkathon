@@ -1,9 +1,10 @@
 
 {
   "version": 2,
-  "functions": {
-    "api/**/*.js": {
-      "maxDuration": 10
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/depok-walkathon-site/index.html"
     }
-  }
+  ]
 }
